@@ -70,6 +70,13 @@ def test2():
                 indent.print('bonjiur')
         indent.print('hey')
 
+# etc
+def forloop():
+    for i, element in enumerate([]):
+        pass
+    for element_in_first, element_in_second in zip([], []):
+        pass
+    
 
 if __name__ == "__main__":
     # test1()
