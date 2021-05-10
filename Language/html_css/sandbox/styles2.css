@@ -1,0 +1,49 @@
+* {
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.container {
+  padding: 20px;
+}
+
+.item-lists {
+  width: 100%;
+  /* max-width: 420px; */
+  border: 1px solid #eee;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+.item-lists > h1 {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 12px;
+}
+
+.item {
+  border-radius: 8px;
+  /* padding: 12px; */
+  margin-bottom: 8px;
+  transition: 0.3s;
+}
+.item:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.item img {
+  float: left;
+  margin-right: 6px;
+}
+.item h2 {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 16px;
+  margin-bottom: 4px;
+}
+.item a,
+.item span {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.clear {
+  clear: both;
+}
