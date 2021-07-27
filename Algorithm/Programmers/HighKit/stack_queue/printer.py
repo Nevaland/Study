@@ -1,5 +1,5 @@
 def solution(priorities, location):
-    queue =  [(i, p) for i, p in enumerate(priorities)]
+    queue = [(i, p) for i, p in enumerate(priorities)]
     answer = 0
     while True:
         current = queue.pop(0)
